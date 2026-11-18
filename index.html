@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The portfolio of Rares Nita, a graduate learning and building with web technologies.">
+  <meta name="theme-color" content="#f5f6f1">
+  <title>Rares Nita | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-content">
+      <a class="logo" href="#home" aria-label="Rares Nita, home">Rares Nita<span>.</span></a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu"
+        aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> A little about me</p>
+          <h1>Hi, I'm <span>Rares Nita.</span></h1>
+          <p class="intro">I'm a graduate exploring web development and learning how to turn simple ideas into useful websites. This is where I share a little about myself and what I'm working on.</p>
+          <div class="hero-actions">
+            <a class="button" href="#projects">View my work <span aria-hidden="true">→</span></a>
+            <a class="text-link" href="https://www.linkedin.com/in/rares-nita-powered-by-nature/" target="_blank" rel="noopener noreferrer">Find me on LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <div class="profile-card" aria-label="Rares Nita initials">
+          <img class="profile-mark" src="images/profile.svg" alt="RN monogram representing Rares Nita">
+          <p>Curious by nature.<br>Always learning.</p>
+          <span class="profile-line" aria-hidden="true"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container section-layout">
+        <div class="section-heading">
+          <p class="section-label">01 / About</p>
+          <h2>A bit about me</h2>
+        </div>
+        <div class="section-copy">
+          <p>I'm currently building my knowledge of HTML, CSS, and JavaScript. I enjoy trying new things, solving small problems, and finding better ways to bring an idea to life.</p>
+          <p>My goal is to keep learning through practice and create websites that are clear, useful, and easy to navigate.</p>
+          <div class="skills" aria-label="Technologies I am learning">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="projects-heading">
+          <div>
+            <p class="section-label">02 / Selected practice</p>
+            <h2>Things I've been working on</h2>
+          </div>
+          <p class="section-intro">A couple of small projects from my web development practice.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-preview preview-one" role="img" aria-label="A simple webpage layout with a heading and text blocks">
+              <div class="mock-browser">
+                <div class="mock-browser-top"><i></i><i></i><i></i></div>
+                <div class="mock-content">
+                  <span class="mock-heading"></span>
+                  <span class="mock-line long"></span>
+                  <span class="mock-line"></span>
+                  <span class="mock-button"></span>
+                </div>
+              </div>
+              <span class="project-number">01</span>
+            </div>
+            <div class="project-info">
+              <p class="project-type">HTML &amp; CSS</p>
+              <h3>My first webpage</h3>
+              <p>A simple webpage built to practise HTML structure, spacing, and basic styling.</p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-preview preview-two" role="img" aria-label="A personal website layout shown inside a browser window">
+              <div class="mock-browser second-browser">
+                <div class="mock-browser-top"><i></i><i></i><i></i></div>
+                <div class="mock-content split-content">
+                  <span class="mock-avatar"></span>
+                  <div class="mock-text-lines">
+                    <span class="mock-heading"></span>
+                    <span class="mock-line long"></span>
+                    <span class="mock-line"></span>
+                  </div>
+                </div>
+                <div class="mock-bottom-lines"><span></span><span></span></div>
+              </div>
+              <span class="project-number">02</span>
+            </div>
+            <div class="project-info">
+              <p class="project-type">Layout &amp; design</p>
+              <h3>Personal page</h3>
+              <p>A small personal page where I practised arranging content into a clear layout.</p>
+            </div>
+          </article>
+        </div>
+        <p class="projects-note">These are practice examples. I'll add more work here as I build it.</p>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-inner">
+        <p class="section-label">03 / Get in touch</p>
+        <h2>Let's stay connected.</h2>
+        <p>Thanks for taking a look at my portfolio. Feel free to reach out or connect with me online.</p>
+        <div class="contact-links">
+          <a class="button" href="mailto:raresnita777@gmail.com">Send me an email <span aria-hidden="true">→</span></a>
+          <a class="text-link" href="https://www.linkedin.com/in/rares-nita-powered-by-nature/" target="_blank" rel="noopener noreferrer">LinkedIn profile <span aria-hidden="true">↗</span></a>
+        </div>
+        <a class="email-address" href="mailto:raresnita777@gmail.com">raresnita777@gmail.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© <span id="current-year">2026</span> Rares Nita</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>

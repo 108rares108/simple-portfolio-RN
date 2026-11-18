@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title">
+  <title id="title">Rares Nita initials</title>
+  <circle cx="100" cy="100" r="91" fill="#d5e1d5"/>
+  <circle cx="100" cy="100" r="72" fill="#456b59"/>
+  <text x="100" y="116" text-anchor="middle" fill="#ffffff" font-family="Georgia, serif" font-size="58" letter-spacing="-5">RN</text>
+  <path d="M144 46c9-13 22-15 31-14-1 13-8 25-23 28" fill="none" stroke="#78977f" stroke-width="4" stroke-linecap="round"/>
+</svg>
