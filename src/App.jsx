@@ -193,6 +193,18 @@ function About() {
             <span>JavaScript</span>
             <span>React</span>
           </div>
+          <details className="copilot-summary">
+            <summary>How Copilot supported development</summary>
+            <div className="copilot-summary-content">
+              <p>Microsoft Copilot supported the portfolio development process at each stage:</p>
+              <ul>
+                <li><strong>CSS:</strong> helped refine layout, spacing, typography, colours, and component styling.</li>
+                <li><strong>Responsive design:</strong> suggested breakpoint and layout improvements for desktop, tablet, and mobile screens.</li>
+                <li><strong>Interactions:</strong> assisted with the mobile navigation, hover and focus feedback, and the contact form experience.</li>
+                <li><strong>Visual polish:</strong> helped review consistency and improve the overall clarity and usability of the page.</li>
+              </ul>
+            </div>
+          </details>
         </div>
       </div>
     </section>
