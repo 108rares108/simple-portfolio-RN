@@ -1,44 +1,22 @@
 # Rares Nita — Portfolio
 
-A responsive React portfolio built with Vite. It presents an introduction, current learning areas, practice projects, and a contact form.
-
-## Run locally
-
-```bash
-npm install
-npm run dev
-```
-
-Create and preview a production build:
-
-```bash
-npm run build
-npm run preview
-```
+This is the complete static portfolio source. The main page is `index.html` in the repository root. Its only local assets are `style.css`, `script.js`, and `profile.svg`, also in the root. There is no nested `site/` folder and no React, Vite, npm, or build step.
 
 ## GitHub Pages deployment
 
-The project is configured for the repository URL `https://108rares108.github.io/simple-portfolio-RN/`.
+The repository is intended for `https://108rares108.github.io/simple-portfolio-RN/`.
 
-1. In the GitHub repository, open **Settings → Pages**.
-2. Under **Build and deployment → Source**, select **GitHub Actions**.
-3. Push changes to the `main` branch. The workflow in `.github/workflows/deploy.yml` installs the dependencies, builds the Vite site, and publishes the generated `dist` folder.
-4. Check the **Actions** tab and confirm that **Deploy portfolio to GitHub Pages** completes successfully.
+1. Copy **the contents of this ZIP directly into the existing repository root** (the same level as the repository's `.git` directory). Do not put the files inside another folder.
+2. Keep **Settings → Pages → Build and deployment → Source** set to **GitHub Actions**.
+3. Commit and push the files to the `main` branch.
+4. In **Actions**, wait for **Deploy portfolio to GitHub Pages** to finish successfully.
 
-The Vite `base` path in `vite.config.js` must remain `/simple-portfolio-RN/` while this is a project site. GitHub Pages cannot serve the unbuilt React source directly; the workflow publishes the production build instead.
+The workflow copies the four website files from the repository root to a temporary `_site` folder and deploys that folder. This keeps `index.html` in the repository root while publishing only the website files.
 
 ## Copilot support during development
 
-Microsoft Copilot was used throughout development to:
+Microsoft Copilot supported the development process by suggesting improvements to CSS layout, spacing, typography, colour consistency, and component styling; recommending responsive breakpoints for desktop, tablet, and mobile; helping implement the interactive navigation, hover/focus feedback, and contact form; and reviewing the visual consistency and usability of the finished portfolio.
 
-- Improve the CSS layout, spacing, typography, colours, and component styling.
-- Suggest responsive breakpoints and layout adjustments for desktop, tablet, and mobile screens.
-- Help implement and refine interactive behaviour, including the mobile navigation, hover/focus feedback, and contact form experience.
-- Review the visual consistency and usability of the finished portfolio and suggest refinements.
+## Contact form
 
-## Functionality notes
-
-- The navigation adapts to smaller screens and can be opened and closed with the menu button or the Escape key.
-- The header responds to scrolling, while keyboard focus keeps it available.
-- Project cards and links include hover/focus feedback.
-- The contact form validates required fields in the browser and prepares an email in the visitor's default mail application. It does not submit to a server.
+The form validates the fields in the browser and opens the visitor's default email application with a pre-filled message. It does not send data to a server.
